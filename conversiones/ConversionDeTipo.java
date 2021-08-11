@@ -1,12 +1,23 @@
 package conversiones;
-
+/**
+ * 
+ * @author Miguel Ramos
+ * Clase generada para entender la conversion de tipos de String a un primitivo y casteo de primito a primitivo
+ * 
+ */
 public class ConversionDeTipo {
 
+	/**
+	 * Metodo que permite ejecutar la clase ConversionDeTipo
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		// Covertimos de String a primitivo
+	
 		String numeroStr = "50";
 		// String a int primitivo
+	
 		int numeroInt = Integer.parseInt(numeroStr);
 		System.out.println("numeroInt = " + numeroInt);
 		
